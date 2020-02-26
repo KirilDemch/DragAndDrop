@@ -1,0 +1,29 @@
+.block {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#block1 {
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+#block2 {
+    background-color: yellow;
+    left: 100px;
+    top: 100px;
+}
+#block3 {
+    background-color: aqua;
+    left: 220px;
+    top: 220px;
+}
+#block4 {
+    background-color: darkblue;
+    left: 220px;
+    top: 220px;
+}
+.selected {
+    z-index: 10000;
+    background-color: #ccc;
+}
